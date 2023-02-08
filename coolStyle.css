@@ -29,8 +29,8 @@ body{
 #header-container{
     display: flex;
     flex-flow: row wrap;
-    margin: 5% 0% 0% 10%;
-    width: 80%;
+    margin: 6.5% 0% 0% 18%;
+    width: 85%;
 }
 
 #guac-container{
@@ -82,4 +82,27 @@ body{
 #magicU{
     color:#B3BF2C;
     display: inline-block;
+}
+a.but{
+    display:inline-block;
+    padding:0.6em 1.6em;
+    border-radius:0.5em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color: white;
+    background-color:#1b1b1b;
+    text-align:center;
+    transition: all 0.2s;
+}
+a.but:hover{
+    color:white;
+    background-color:#B3BF2C;
+}
+@media all and (max-width:30em){
+    a.but{
+    display:block;
+    margin:0.4em auto;
+}
 }
